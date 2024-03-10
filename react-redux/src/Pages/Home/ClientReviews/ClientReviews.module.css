@@ -1,0 +1,20 @@
+.container{
+    /* max-width: 1200px;
+    margin: auto; */
+    margin-bottom: 50px;
+}
+
+.card{
+   
+}
+
+.slick_slider {
+margin: 10px;
+  }
+
+.slick_slides{
+    margin: 0 -10px;
+    background-color:red;
+    margin: 10px;
+    cursor: grab;
+}

@@ -1,0 +1,16 @@
+.register_page{
+    display: flex;
+}
+.register_page div:nth-child(1) {
+    flex: 1;
+}
+
+.register_page div:nth-child(2) {
+    text-align: center;
+    flex: 1;
+}
+.register_page img{
+    width:100%;
+    height: 550px;
+    object-fit: cover;
+}

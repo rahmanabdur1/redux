@@ -1,0 +1,39 @@
+
+.SelectePlan_page{
+    display: flex;
+}
+.SelectePlan_page div:nth-child(1) {
+    flex: 1;
+}
+
+.SelectePlan_page div:nth-child(2) {
+    text-align: center;
+    flex: 1;
+}
+
+
+.SelectePlan_page img{
+    width:100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+
+.lesmills img{
+    width: 120px;
+    height: 20px;
+}
+
+.paypal_card img{
+ width: 50px;
+ object-fit: cover;
+ height: 40px;
+ object-fit: contain;
+}
+
+
+.visa_card img{
+    width: 50px;
+    height: 40px;
+    object-fit: contain;
+   }

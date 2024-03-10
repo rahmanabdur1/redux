@@ -1,0 +1,58 @@
+.banner {
+    background-image: url('../../../assets/fit.avif');
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+      background-color: #dbaaaa;
+    justify-content: center;
+}
+
+.banner_content {
+    display: flex;
+     max-width: 700px;
+    margin: auto;
+    flex-direction: column; 
+}
+
+.banner_content h1{
+    text-align: center;
+    color:#f0f06b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:47px;
+}
+
+
+
+.banner_content p{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: -7px;
+    font-size: 16px;
+}
+
+
+.banner_content button{
+    background-color: black;
+    color: white;
+    width: max-content;
+    margin: auto;
+    color:#59bfff;
+    padding: 12px 22px 12px 22px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 70px;
+    border-radius: 4px;
+}
+
+.banner_content button:hover{
+    background-color:  #59bfff;
+    color: black;
+}
